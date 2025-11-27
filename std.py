@@ -21,15 +21,15 @@ else:
 avg=(m1+m2+m3+m4+m5)
 print(f"average : {avg}")
 
-if avg>90:
-  print("grade: A")
-elif avg>80:
-  print("grade: B")
-elif avg>70:
-  print("grade: C")
-elif avg>60:
-  print("grade: D")
-elif avg>50:
-  print("grade: E")
+if avg >= 90:
+    print("Grade: A")
+elif avg >= 80:
+    print("Grade: B")
+elif avg >= 70:
+    print("Grade: C")
+elif avg >= 60:
+    print("Grade: D")
+elif avg >= 50:
+    print("Grade: E")
 else:
-  print("grade: Fail")
+    print("Grade: Fail")
