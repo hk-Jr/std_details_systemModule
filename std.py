@@ -2,12 +2,12 @@ import sys
 
 if len(sys.argv)==6:
   script_name=sys.argv[0]
-  m1=sys.argv[1]
-  m2=sys.argv[2]
-  m3=sys.argv[3]
-  m4=sys.argv[4]
-  m5=sys.argv[5]
-  print("user details - inputeed")
+  m1 = int(sys.argv[1])
+  m2 = int(sys.argv[2])
+  m3 = int(sys.argv[3])
+  m4 = int(sys.argv[4])
+  m5 = int(sys.argv[5])
+  print("user details - inputted")
 
 else:
   print("no input given - Using default Value.")
@@ -18,7 +18,7 @@ else:
   m4=44
   m5=66
 
-avg=(m1+m2+m3+m4+m5)
+avg=(m1+m2+m3+m4+m5)/5
 print(f"average : {avg}")
 
 if avg >= 90:
