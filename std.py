@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.args)==6:
+if len(sys.argv)==6:
   script_name=sys.argv[0]
   m1=sys.argv[1]
   m2=sys.argv[2]
